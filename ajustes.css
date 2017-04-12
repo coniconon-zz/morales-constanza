@@ -1,0 +1,80 @@
+html,body{
+  height: 100%;
+}
+body{
+  padding-top: 50px; /* Para la navbar de Bootstrap por default */
+  background-image: url(img/pinkdust.png);
+}
+header, section, aside, footer {background-color: transparent;}
+section{height:auto;}
+article{padding-bottom:1.5em;}
+article h5 {padding-bottom:1em;}
+article h5 a{padding-right:1em;}
+article figure{
+  margin-right:2em;
+  margin-bottom:1em;
+  margin-top:0.25em;
+  float:left;
+  width:40%;
+  height:auto;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+article figure{width:100%; padding-right:0; clear:both;}
+}
+article figure img{width:100%; height:auto;}
+aside{
+  padding-top:0.5em;
+}
+
+#aside-fixed{
+  padding-top:0.5em;
+  position: fixed;
+}
+
+.navbar-brand{
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 24px;
+}
+
+#navbar {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#pizza{
+  width: 200px;
+}
+
+header,h1,h2,h3,h4,p,ul{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+footer {
+position:relative;
+height:50px;
+margin-top:-50px;
+width:100%;
+right: 0;
+bottom:0;
+color: white;
+text-align: center;
+clear:both;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 50px; /* must be same height as the footer */
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#well,#lista-uno{
+  color:black;
+}
+
+#table1,#blanco,thead{
+  color: white;
+}
